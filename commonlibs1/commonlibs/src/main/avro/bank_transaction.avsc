@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "BankTransaction",
+  "namespace": "com.plutus.kotak.commonlibs.avro",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "transactionType",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    }
+  ]
+} 
